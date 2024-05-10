@@ -36,7 +36,7 @@ Figure 2: Operation Use Case Register 2
 
 6.	Enter the number that corresponds to your role in the company (I chose 2, which corresponds to premium client). 
 
-![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/4de5a469-daee-4051-abf2-53f7ca09efdb)
+![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/4de5a469-daee-4051-abf2-53f7ca09efdb)  
 Figure 3: Operation Use Case Register 3  
 
 7.	Upon successful registration, a confirmation message is displayed to the user saying, “Enrolled Successfully” and the user is added to the passwd.txt file as you can see below.
