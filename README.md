@@ -15,7 +15,7 @@ To compile and run this program, follow these steps in the virtual machine:
 ```
 git clone https://github.com/YashKapoor1102/Access-Control-System-for-Users.git
 ```
-<br>**Step 2:**	Open the terminal (command-line interface) on your computer.
+**Step 2:**	Open the terminal (command-line interface) on your computer.
 <br><br>**Step 3:**	Check which version of Python is installed by typing “python --version” or “python3 --version” and pressing Enter. On the virtual machine, a version of python3 was installed, so I used that command.
 <br><br>**Step 4:**	Go to the folder (where you cloned the repository to in step 1) that contains the Python program, using the “cd enter/specified/path” command.
 ```
