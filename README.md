@@ -1,6 +1,16 @@
+# Access Control System for Users
+
+## Description
 The prototype developed for Finvest Holdings consists of three main components that are an enrollment interface, login interface, and an access control system. First, the access control model that is used is role-based access control (RBAC) because each employee has a different role in the system. Based on their role, they have different permissions, so RBAC was the best choice. Furthermore, an access control list was used for the access control policy model instead of an access control matrix since it allows for addition of more resources and roles in the future if needed. Also, it is easier to maintain and more readable since there are already many resources in the company. Second, the hash function that I chose to employ in the password file mechanism was bcrypt due to its excellent security and moderate performance, achieving a great balance between security and performance. Finally, I ensured that each user in the system must have a unique username and a strong password that adheres to the password policy that was mentioned. 
 The enrollment interface allows new users to enroll by entering their username, password, and role. The login interface ensures the users that are already enrolled into the system can log in using their username and password. As a security measure, a rate-limiting mechanism is implemented to mitigate brute-force attacks. This means the user must wait two minutes after they incorrectly input their credentials in the login interface more than five times. The access control system defines and enforces user permissions based on their role. Also, it displays the user ID, role, and access rights of the user upon successful authorization. After the user is successfully logged in, they can also enter a resource they would like to access along with an action that they want to execute on that resource (e.g., read or write), and the system shall notify them whether permission is granted or denied. 
-This prototype was implemented in Python. To compile and run this program, follow these steps in the virtual machine:
+This prototype was implemented in Python.   
+
+## Installation 
+If you don't have Python installed, then you can download it here:  
+https://www.python.org/downloads/
+
+## Usage
+To compile and run this program, follow these steps in the virtual machine:
 1.	Extract the ZIP archive of source code to a folder of your own choice.
 2.	Open the terminal (command-line interface) on your computer.
 3.	Check which version of Python is installed by typing “python --version” or “python3 --version” and pressing Enter. On the virtual machine, a version of python3 was installed, so I used that command.
@@ -9,7 +19,7 @@ This prototype was implemented in Python. To compile and run this program, follo
 6.	Run the MainMenu.py file to run the prototype by typing “python3 MainMenu.py” or “python MainMenu.py” depending on what version of python is installed on your computer. 
 7.	There are also several tests written for this program. If you want to ensure all the tests pass for each test file, you can do so by running each test file individually with the command: “python -m unittest test_file_name.py” or “python3 -m unittest test_file_name.py”. Each test file in the program has “Test” used as a prefix, so you can easily tell which files are test files.
 
-
+## Sample Use Case
 Next, I shall give a demonstration of my prototype. I shall show the enrollment of a new user and the enrolled user logging in afterwards:
 1.	Run the prototype following the instructions above.
 2.	Select the “Register (Enroll)” option by inputting 1.
