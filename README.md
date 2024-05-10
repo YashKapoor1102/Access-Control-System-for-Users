@@ -11,20 +11,20 @@ https://www.python.org/downloads/
 
 ## Usage
 To compile and run this program, follow these steps in the virtual machine:
-<br>**Step 1:**	Clone the repository:
+<br><br>**Step 1:**	Clone the repository:
 ```
 git clone https://github.com/YashKapoor1102/Access-Control-System-for-Users.git
 ```
-**Step 2:**	Open the terminal (command-line interface) on your computer.
-<br>**Step 3:**	Check which version of Python is installed by typing “python --version” or “python3 --version” and pressing Enter. On the virtual machine, a version of python3 was installed, so I used that command.
-<br>**Step 4:**	Go to the folder (where you cloned the repository to in step 1) that contains the Python program, using the “cd enter/specified/path” command.
+<br>**Step 2:**	Open the terminal (command-line interface) on your computer.
+<br><br>**Step 3:**	Check which version of Python is installed by typing “python --version” or “python3 --version” and pressing Enter. On the virtual machine, a version of python3 was installed, so I used that command.
+<br><br>**Step 4:**	Go to the folder (where you cloned the repository to in step 1) that contains the Python program, using the “cd enter/specified/path” command.
 ```
 cd Access-Control-System-for-Users
 ```
 Now, you shall be able to view all the source code files as well as the test files that I wrote for my program.  
-<br>**Step 5:**	To see which files there are in the folder, type the “ls” command, assuming you are on Linux.  
-**Step 6:**	Run the MainMenu.py file to run the prototype by typing “python3 MainMenu.py” or “python MainMenu.py” depending on what version of python is installed on your computer. 
-<br>**Step 7:**	There are also several tests written for this program. If you want to ensure all the tests pass for each test file, you can do so by running each test file individually with the command: “python -m unittest test_file_name.py” or “python3 -m unittest test_file_name.py”. Each test file in the program has “Test” used as a prefix, so you can easily tell which files are test files.
+<br><br>**Step 5:**	To see which files there are in the folder, type the “ls” command, assuming you are on Linux.  
+<br>**Step 6:**	Run the MainMenu.py file to run the prototype by typing “python3 MainMenu.py” or “python MainMenu.py” depending on what version of python is installed on your computer. 
+<br><br>**Step 7:**	There are also several tests written for this program. If you want to ensure all the tests pass for each test file, you can do so by running each test file individually with the command: “python -m unittest test_file_name.py” or “python3 -m unittest test_file_name.py”. Each test file in the program has “Test” used as a prefix, so you can easily tell which files are test files.
 
 ## Sample Use Case
 Next, I shall give a demonstration of my prototype. I shall show the enrollment of a new user and the enrolled user logging in afterwards:
