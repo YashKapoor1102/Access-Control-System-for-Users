@@ -22,7 +22,7 @@ git clone https://github.com/YashKapoor1102/Access-Control-System-for-Users.git
 cd Access-Control-System-for-Users
 ```
 Now, you shall be able to view all the source code files as well as the test files that I wrote for my program.  
-<br><br>**Step 5:**	To see which files there are in the folder, type the “ls” command, assuming you are on Linux.  
+<br>**Step 5:**	To see which files there are in the folder, type the “ls” command, assuming you are on Linux.  
 <br>**Step 6:**	Run the MainMenu.py file to run the prototype by typing “python3 MainMenu.py” or “python MainMenu.py” depending on what version of python is installed on your computer. 
 <br><br>**Step 7:**	There are also several tests written for this program. If you want to ensure all the tests pass for each test file, you can do so by running each test file individually with the command: “python -m unittest test_file_name.py” or “python3 -m unittest test_file_name.py”. Each test file in the program has “Test” used as a prefix, so you can easily tell which files are test files.
 
