@@ -49,7 +49,7 @@ The user is then redirected to the login interface.
 2.	Enter the password (I entered Awesome567# because that is the password that I registered with). Assuming you have entered the correct credentials, access should be granted as shown below and user information shall be displayed.
 
 ![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/ea5537ec-dbd9-4fcd-b1e5-d7d0bae6df9f)  
-Figure 5: Operation Use Case Login 1
+Figure 5: Operation Use Case Login 1<br>
 
 ![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/20fe25db-5dbf-4341-833e-f376151bf166)  
 Figure 6: Operation Use Case Login 2
