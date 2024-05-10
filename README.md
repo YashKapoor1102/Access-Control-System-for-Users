@@ -6,7 +6,7 @@ The enrollment interface allows new users to enroll by entering their username, 
 This prototype was implemented in Python.   
 
 ## Installation 
-If you don't have Python installed, then you can download it here:  
+If you don't have Python installed, you can download it here:  
 https://www.python.org/downloads/
 
 ## Usage
