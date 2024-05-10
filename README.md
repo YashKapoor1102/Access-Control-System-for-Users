@@ -60,3 +60,8 @@ Figure 6: Operation Use Case Login 2
 Figure 7: Operation Use Case Login 3  
 
 Indeed, it was exciting to work on this prototype for Finvest Holdings and provide the required functionality along with the tests. 
+
+## Full Report
+For a detailed explanation of the project's development, including the rationale  
+behind technical choices and complete testing procedures, view the full report here:
+https://drive.google.com/file/d/1rElfLMoZk3DjE_Pr1ErCkQIeB2COJewT/view?usp=drive_link
