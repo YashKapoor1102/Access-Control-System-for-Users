@@ -15,38 +15,38 @@ Next, I shall give a demonstration of my prototype. I shall show the enrollment 
 2.	Select the “Register (Enroll)” option by inputting 1.
 
 ![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/142e6f20-5439-4890-988c-3d7370b1651f)
-Figure 46: Operation Use Case Register 1
+Figure 1: Operation Use Case Register 1
 
 3.	Enter the username (The username I chose was yashk123).
 4.	Enter the password (The password I chose was Awesome567#).
 5.	Confirm the password (Enter the same password, so in my case, I entered Awesome567#)
 
 ![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/8f0fe624-ee28-441f-8179-36f1d1635403)
-Figure 47: Operation Use Case Register 2  
+Figure 2: Operation Use Case Register 2  
 
 6.	Enter the number that corresponds to your role in the company (I chose 2, which corresponds to premium client). 
 
 ![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/4de5a469-daee-4051-abf2-53f7ca09efdb)
-Figure 48: Operation Use Case Register 3  
+Figure 3: Operation Use Case Register 3  
 
 7.	Upon successful registration, a confirmation message is displayed to the user saying, “Enrolled Successfully” and the user is added to the passwd.txt file as you can see below.
 
 ![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/b1b2a755-e9d5-4427-bb46-baca58d0d8d1)  
-Figure 49: Operation Use Case Register Passwd.txt File
+Figure 4: Operation Use Case Register Passwd.txt File
 
 The user is then redirected to the login interface.
 1.	Enter the username (I entered yashk123 because that is the username that I registered with)
 2.	Enter the password (I entered Awesome567# because that is the password that I registered with). Assuming you have entered the correct credentials, access should be granted as shown below and user information shall be displayed.
 
-![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/ea5537ec-dbd9-4fcd-b1e5-d7d0bae6df9f)
-Figure 50: Operation Use Case Login 1
+![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/ea5537ec-dbd9-4fcd-b1e5-d7d0bae6df9f)  
+Figure 5: Operation Use Case Login 1
 
-![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/20fe25db-5dbf-4341-833e-f376151bf166)
-Figure 51: Operation Use Case Login 2
+![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/20fe25db-5dbf-4341-833e-f376151bf166)  
+Figure 6: Operation Use Case Login 2
 
 3.	The user is also allowed to enter the resource they would like to access and what they want to do with the resource. Then, depending on their permissions, they shall be denied or granted permission to access that resource. As you can see below, the role, premium client, has permission read on client account balance, so they are granted permission. On the other hand, even though the role, premium client, has “read” access to financial planner account details, they do not have “write” access to financial planner account details, so permission is denied. 
 
-![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/e6267b16-7a8d-4656-ab4e-43e10ab793e7)
-Figure 52: Operation Use Case Login 3  
+![image](https://github.com/YashKapoor1102/Access-Control-System-for-Users/assets/78821595/e6267b16-7a8d-4656-ab4e-43e10ab793e7)  
+Figure 7: Operation Use Case Login 3  
 
 Indeed, it was exciting to work on this prototype for Finvest Holdings and provide the required functionality along with the tests. 
